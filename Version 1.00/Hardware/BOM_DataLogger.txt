@@ -1,0 +1,17 @@
+Partlist exported from /Users/jean-rogerblouin/Documents/eagle/TéléInfo/V3/DataLogger.sch at 28/12/12 10:51
+
+Qty Value     Device          Package      Parts   Description                       MF MPN OC_FARNELL OC_NEWARK
+2   100 nF    C-EU025-025X050 C025-025X050 C1, C2  CAPACITOR, European symbol                                   
+1   10k       R-EU_0204/5     0204/5       R3      RESISTOR, European symbol                                    
+1   2k2       R-EU_0204/5     0204/5       R5      RESISTOR, European symbol                                    
+1   330       R-EU_0204/5     0204/5       R4      RESISTOR, European symbol                                    
+1   4066N     4066N           DIL14        IC2     Quad bilateral ANALOG SWITCH                                 
+2   4k7       R-EU_0204/5     0204/5       R1, R2  RESISTOR, European symbol                                    
+1   74LS132N  74LS132N        DIL14        IC1     Quad 2-input NAND schmitt trigger                            
+1   Bleue     LED3MM          LED3MM       LED3    LED                                                          
+1   CONN-SIL6 MA06-1          MA06-1       J-POWER PIN HEADER                               unknown    unknown  
+1   CONN-SIL8 MA08-1          MA08-1       J-IOL   PIN HEADER                               unknown    unknown  
+1   CPT1      PINHD-1X2       1X02         CPT1    PIN HEADER                                                   
+1   CPT2      PINHD-1X2       1X02         CPT2    PIN HEADER                                                   
+1   Jaune     LED3MM          LED3MM       LED2    LED                                                          
+1   Verte     LED3MM          LED3MM       LED1    LED                                                          
