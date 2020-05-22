@@ -1,19 +1,13 @@
-//=================================================================================================================
-// The ConsoTeleInfo is a class that stores the data retrieved from the teleinfo frames, and displays them on a LCD
-// Various displays are available :
-//     + Instant values : Actual color, actual mode, instant current, actual color counter, instant power
-//     + To morrow color : Actual color and to morrow color when known
-//     + A display for each color (blue, white, red) and both modes (HC, HP)
-//
-// The various displays can be directly selected by pressing the buttons placed below the LCD, so button handling
-// routine that generates interrupts is also part of this class
-//
-//=================================================================================================================
+/** =================================================================================================================
+* The ConsoTeleInfo is a class that stores the data retrieved from the teleinfo frames, and records them on the 
+* mysql database Maeva. Whithout network connection, data are stored on a SD card.
+* A function can displays them on the serial monitor (for debug purpose only).
+* =================================================================================================================*/
 #include "ConsoTeleInfo.h"
 
-//=================================================================================================================
-// ConsoTeleInfo : Basic constructor
-//=================================================================================================================
+/**=================================================================================================================
+* ConsoTeleInfo : Basic constructor
+* =================================================================================================================*/
 ConsoTeleInfo::ConsoTeleInfo()
 {
   Serial.begin(1200,SERIAL_7E1);
